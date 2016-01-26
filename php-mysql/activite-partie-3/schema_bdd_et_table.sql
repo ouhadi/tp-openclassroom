@@ -1,0 +1,29 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+CREATE DATABASE IF NOT EXISTS `octp_minichat` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `octp_minichat`;
+
+CREATE TABLE IF NOT EXISTS `minichat` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pseudo` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL,
+  `dateheure` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
+
+INSERT INTO `minichat` (`id`, `pseudo`, `message`, `dateheure`) VALUES
+(18, 'Marc', 'Hey ! Salut les gars !', 1453655624),
+(19, 'Antoine', 'Yop :)', 1453655635),
+(20, 'Frank', 'Quelqu''un joue à Insurgency ici?', 1453655723),
+(21, 'Lucie', 'Non désolé :(', 1453655740),
+(22, 'Frank', 'Arf :/ Pas grave', 1453655758);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

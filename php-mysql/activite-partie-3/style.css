@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    text-align:center;
+}
+
+.timestamp, .vide, #commentaires p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#commentaires p {
+    background-color: #CED8F6;
+}
+
+.timestamp {
+    background-color: #045FB4;
+    color: #FFFFFF;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.vide {
+    background-color: #F7BE81;
+    padding-left: 5px;
+}
