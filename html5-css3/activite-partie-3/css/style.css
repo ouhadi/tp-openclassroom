@@ -1,0 +1,53 @@
+header {
+    margin-bottom: 2%;
+}
+
+body {
+    margin: 0; /* 'Reset' pour corriger un bug du navigateur */
+    padding: 0; /* 'Reset' pour corriger un bug du navigateur */
+    font-family: sans-serif;
+    background: url('../img/background.png') fixed repeat;
+}
+
+h1, p {
+    margin-top: 0; /* 'Reset' pour corriger un bug du navigateur */
+}
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+}
+
+h2 {
+    color : brown;
+}
+
+img {
+    border: 1px solid #000000;
+    box-shadow: 6px 6px 0px #000000;
+}
+
+#header-infos {
+    text-align: center;
+}
+
+#homer {
+    display: block;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#col-gauche {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background: url('../img/pattern.jpg') fixed repeat;
+}
+
+#col-droite {
+    float: right;
+    width: 90%;
+}

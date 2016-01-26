@@ -1,0 +1,21 @@
+body {
+    background: url('fond.png') fixed repeat;
+    font-family: sans-serif;
+}
+
+.titre {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+}
+
+h2 {
+    color : brown;
+}
+
+img {
+    border: 1px solid #000000;
+    box-shadow: 6px 6px 0px #000000;
+}
