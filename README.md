@@ -9,5 +9,5 @@ Travaux pratiques réalisés dans le cadre des MOOC OpenClassroom.
 
 ## Auteur
 Jérémy Vinceno
-* [https://github.com/jvinceno] 
-* [https://twitter.com/jvinceno]
+* https://github.com/jvinceno 
+* https://twitter.com/jvinceno
